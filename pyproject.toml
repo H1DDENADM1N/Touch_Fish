@@ -1,0 +1,20 @@
+[project]
+name = "Touch_Fish"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "H1DDENADM1N", email = "65646535+H1DDENADM1N@users.noreply.github.com"},
+]
+dependencies = [
+    "pywin32>=306",
+    "pyside6==6.6.2",
+    "psutil>=6.0.0",
+    "keyboard>=0.13.5",
+]
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "GPLv3"}
+
+
+[tool.pdm]
+distribution = false
